@@ -1,0 +1,245 @@
+SHAIK ISMAIL
+
+Your grade: 100%
+Your latest: 100%•
+Your highest: 100%•
+To pass you need at least 80%. We keep your highest score.
+Next item
+1.
+Question 1
+Which of the following would you use to create a screen of nested composables in such a way that the elements stack up vertically?
+
+1 / 1 point
+
+Column layout
+
+
+
+Panel layout
+
+
+
+Grid layout
+
+
+
+Row layout
+
+
+Correct
+That’s correct! A nested UI structure can consist of multiple types of layouts.
+
+2.
+Question 2
+How does an Activity allow the user to interact with an Android app? 
+
+1 / 1 point
+
+It provides the window for the app's user interface and allows the user to interact with the UI elements. 
+
+
+
+It allows the app to access system resources. 
+
+
+
+It allows the user to view content.
+
+
+Correct
+That’s correct! An Activity is the app component that contains the user interface. 
+
+3.
+Question 3
+Which of the following are all UI elements subclasses of?
+
+1 / 1 point
+
+the View class
+
+
+
+an Activity
+
+
+
+the Layout class
+
+
+
+the ViewGroup class
+
+
+Correct
+That's correct! A nested UI structure can consist of multiple types of layouts.
+
+4.
+Question 4
+Which of these methods are called as part of the Activity Lifecycle in Android UI Development? Select all that apply. 
+
+1 / 1 point
+
+onInitialized()
+
+
+
+onDestroy()
+
+
+Correct
+That’s correct! onDestroy() is a method that is part of the Activity Lifecycle.
+
+
+onCreate()
+
+
+Correct
+That’s correct! onCreate() is a method that is part of the Activity Lifecycle.
+
+
+onStart()
+
+
+Correct
+That’s correct! onStart() is a method that is part of the Activity Lifecycle.
+
+5.
+Question 5
+Which of the following view groups has an src property?
+
+1 / 1 point
+
+Button 
+
+
+
+ImageView
+
+
+
+TextView
+
+
+
+ProgressBar
+
+
+Correct
+That's correct! Only the ImageView has an src attribute.
+
+6.
+Question 6
+Which of the following is the approach to building a UI Jetpack Compose is based on?
+
+1 / 1 point
+
+object oriented
+
+
+
+hierarchical
+
+
+
+imperative
+
+
+
+declarative 
+
+
+Correct
+Correct! The declarative approach focuses on the what rather than the how.
+
+7.
+Question 7
+Which of these is a way to preview the appearance of an Android UI?
+
+1 / 1 point
+
+Use the Android Studio Emulator.
+
+
+
+Use the Android Studio Debugger.
+
+
+
+Use the Android Studio Layout Editor.
+
+
+Correct
+That’s correct! You can preview in the Android Studio Layout Editor and you can also preview appearance using the @preview annotation.
+
+8.
+Question 8
+Which of the following is an Invisible UI element that acts as a container to other views?
+
+1 / 1 point
+
+Layout
+
+
+
+View
+
+
+
+View group
+
+
+
+A tree
+
+
+Correct
+That's correct! View groups are a special kind of view that do not have an appearance of their own.
+
+9.
+Question 9
+Which of the following do XML elements correspond to?
+
+1 / 1 point
+
+Layouts
+
+
+
+View subclasses
+
+
+
+View groups
+
+
+Correct
+That's correct! View subclasses define the individual views or layouts.
+
+10.
+Question 10
+Which of the following lays out composables horizontally?
+
+1 / 1 point
+
+View
+
+
+
+Column
+
+
+
+Box
+
+
+
+Row
+
+
+Correct
+That's correct! The main axis for a row is the horizontal axis, so you can set the horizontal arrangement.
+
+
+-----------------------------------------------------------------------------------------------------
+
+

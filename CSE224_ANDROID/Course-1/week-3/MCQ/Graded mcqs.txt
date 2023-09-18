@@ -1,0 +1,257 @@
+SHAIK ISMAIL
+
+Your grade: 90%
+Your latest: 90%•
+Your highest: 90%•
+To pass you need at least 80%. We keep your highest score.
+Next item
+1.
+Question 1
+What are the three major parts of navigation in Jetpack Compose?
+
+1 / 1 point
+
+ NavHost, NavMenu, NavStack
+
+
+
+ NavGraph, NavHost, NavController
+
+
+
+NavDrawer, NavFooter, NavController
+
+
+
+ NavGraph, NavDrawer, NavFooter
+
+
+Correct
+Correct! A NavHost is required to link a NavController with a NavGraph. A NavGraph is required by the NavHost to navigate between composables and a NavController is required to trigger navigation between screens.
+
+2.
+Question 2
+The type of the route variable which corresponds to the destination in the navigation graph is ________ .
+
+1 / 1 point
+
+Boolean
+
+
+
+Int
+
+
+
+String
+
+
+Correct
+Correct! The route is a String unique for every destination. 
+
+3.
+Question 3
+True or False: The object keyword is used for creating an object without creating the class. 
+
+1 / 1 point
+
+True
+
+
+
+False
+
+
+Correct
+Correct. The object keyword is commonly used in Jetpack Compose for creating routes.
+
+4.
+Question 4
+Which of the following is the default argument type for the navArgument() function?
+
+1 / 1 point
+
+String
+
+
+
+Boolean
+
+
+
+Int
+
+
+Correct
+Correct! You can set the argument type in the trailing lambda of the navArgument() function. 
+
+5.
+Question 5
+Which of the following is the correct way to pass the argUserName variable in the below Destination object to navArgument?
+
+
+12345678
+  interface Destinations {     val route: String  }  object Profile : Destinations {     const val argUserName = "UserName"     override val route = "Profile"  } 
+  interface Destinations {
+     val route: String
+  }
+  object Profile : Destinations {
+     const val argUserName = "UserName"
+     override val route = "Profile"
+  }
+
+
+1 / 1 point
+
+
+123
+navArgument(argUserName) {      type = NavType.StringType }
+navArgument(argUserName) { 
+     type = NavType.StringType 
+}
+
+
+
+
+123
+navArgument($UserName) {     type = NavType.StringType }
+navArgument($UserName) { 
+    type = NavType.StringType 
+}
+
+
+
+
+123
+navArgument(Profile.argUserName) {     type = NavType.StringType }
+navArgument(Profile.argUserName) { 
+    type = NavType.StringType 
+}
+
+
+Correct
+Correct! navArgument accepts an argument defined in the Destination object with the type set in the trailing lambda.
+
+6.
+Question 6
+It is the best practice that the Bottom navigation must contain __________. 
+
+1 / 1 point
+
+any number of destinations
+
+
+
+three to five destinations 
+
+
+
+one or two destinations 
+
+
+Correct
+Correct! Bottom navigation is used for the primary destinations which need to be accessed from anywhere within the app.
+
+7.
+Question 7
+Which of the following is used for a vertical list of an unknown number of items?
+
+1 / 1 point
+
+ Column
+
+
+
+ LazyRow
+
+
+
+ LazyColumn
+
+
+Correct
+Correct! LazyRow is similar to row, but it is used for horizontal scrolling lists.
+
+8.
+Question 8
+What is the most suitable element when you have an unknown or large number of items? Select all that apply. 
+
+1 / 1 point
+
+Row 
+
+
+
+LazyRow
+
+
+Correct
+Correct! LazyRow creates a horizontal scrollable list.
+
+
+LazyColumn
+
+
+Correct
+Correct! LazyColumn creates a vertical scrollable list. 
+
+
+Column
+
+
+9.
+Question 9
+Which among the following are the parameters of the composable function defined in the NavHost? Select all that apply. 
+
+0 / 1 point
+
+startDestination 
+
+
+This should not be selected
+Not quite. Please review the reading 
+Navigation Examples
+.
+
+
+route
+
+
+Correct
+Correct! The route is used to define the route of the destination.
+
+
+arguments
+
+
+
+navController
+
+
+This should not be selected
+Not quite. Please review the reading 
+Navigation Examples
+.
+
+10.
+Question 10
+Which of the following best describes what a NavHost is?
+
+1 / 1 point
+
+ NavHost acts as a container for displaying the current destination.
+
+
+
+NavHost is a collection of navigable destinations.
+
+
+
+NavHost is responsible for keeping track of the back stack.
+
+
+Correct
+Correct! NavHost takes the NavController as an argument and associates it with the NavGraph.
+
+-----------------------------------------------------------------------------------------------------
+

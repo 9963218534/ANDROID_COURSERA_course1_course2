@@ -1,0 +1,800 @@
+SHAIK ISMAIL
+
+Your grade: 86.66%
+Your latest: 86.66%•
+Your highest: 86.66%•
+To pass you need at least 80%. We keep your highest score.
+Next item
+1.
+Question 1
+The manifest file contains:
+
+Select all that apply.
+
+1 / 1 point
+
+Activities
+
+
+Correct
+Correct! You must register information about application activities in the manifest.
+
+
+Composables
+
+
+
+Permissions 
+
+
+Correct
+Correct! You must register information about application permissions in the manifest.
+
+
+Fragments 
+
+
+2.
+Question 2
+One of the fundamental differences between the traditional View system and Compose is their development philosophy. What are their approaches?
+
+1 / 1 point
+
+The View system follows the declarative approach, while Compose is based on the imperative approach to building UI.
+
+
+
+The View system follows the imperative approach, while Compose is based on the declarative approach to building UI.
+
+
+
+The View system and Compose both use the declarative approach.
+
+
+
+The View system and Compose both use the imperative approach.
+
+
+Correct
+Correct! The Declarative approach describes desired result (what), while imperative approach describes exact sequence of steps (how). 
+
+3.
+Question 3
+What can a layout contain? Select all that apply.
+
+1 / 1 point
+
+Screens
+
+
+
+Other layouts
+
+
+Correct
+Correct! Layouts may contain other layouts.
+
+
+Activities
+
+
+
+UI Elements
+
+
+Correct
+Correct! Layouts may contain simple UI elements.
+
+4.
+Question 4
+True or False: Applying modifiers to a composable in different order may produce a different result. 
+
+1 / 1 point
+
+True
+
+
+
+False
+
+
+Correct
+Correct! Changing the order may have a different effect on the overall arrangement, positioning, size or even behavior of the elements.
+
+5.
+Question 5
+The count variable is defined within a composable function in the example below. Which of the following describes the default behavior of a recall to the same function? 
+
+
+12345678
+ @Composable fun Counter() {     val count = 0     Button(text = "+", onClick = {         count.value++         }    ) }  
+ @Composable fun Counter() { 
+    val count = 0 
+    Button(text = "+", onClick = { 
+        count.value++ 
+        }
+    ) 
+} 
+
+
+1 / 1 point
+
+Increment the count variable value only during the recomposition.
+
+
+
+Increment the count variable value.
+
+
+
+Reset the count variable to its initial value.
+
+
+Correct
+Correct! To retain the value, you have to use the remember function and mutableStateOf observable.
+
+6.
+Question 6
+Which layout is used to place its children in a horizontal sequence?
+
+1 / 1 point
+
+Grid
+
+
+
+Row
+
+
+
+Column
+
+
+
+Cell
+
+
+Correct
+Correct! Lists are used when you need to display several items vertically or horizontally. A horizontal list is defined using Row.
+
+7.
+Question 7
+Which lazy composable is not included in Jetpack compose?
+
+1 / 1 point
+
+LazyButton
+
+
+
+LazyGrid
+
+
+
+LazyColumn
+
+
+
+LazyRow
+
+
+Correct
+Correct! Lazy composables deal with a large number of items or items of unknown length, because they can cause performance issues. Button does not deal with lists of items, so it doesn’t have to be lazy.
+
+8.
+Question 8
+True or False: Modifying the Button style in the theme will change the appearance of every button in the application unless the theme style is overridden.
+
+1 / 1 point
+
+True 
+
+
+
+False
+
+
+Correct
+Correct! A theme change will be applied to every screen in the application. For example, a new background color for a Button will be applied to all buttons in every application screen.
+
+9.
+Question 9
+Which unit would you use to set text size?
+
+1 / 1 point
+
+sp (scalable pixel)
+
+
+
+dp (density independent pixel)
+
+
+
+both sp and dp can be used
+
+
+Correct
+Correct! Unlike the width and height of other composables which are set in density independent pixel or dp, the text size is set in scalable pixel, also known as sp.
+
+10.
+Question 10
+What will the output of this code be?
+
+
+123456789
+ var visible by remember { mutableStateOf(true) } Column {     if (visible) {     Text(text = "Hello") } Button(onClick = { visible = !visible }) {     Text("My Button")     } } 
+ var visible by remember { mutableStateOf(true) 
+} Column { 
+    if (visible) { 
+    Text(text = "Hello") 
+} Button(onClick = { visible = !visible }) { 
+    Text("My Button") 
+    } 
+}
+
+
+1 / 1 point
+
+The first Button click will instantly show the Text and the next Button click will have no effect.
+
+
+
+The first Button click will instantly hide the Text and the following Button click will instantly show the Text.
+
+
+
+The first Button click will start the fade in animation of the Text and the following Button click will start the fade out animation of the Text.
+
+
+
+The first Button click will start the fade out animation of the Text and following Button click will start fade in animation of the Text
+
+
+Correct
+Correct! Visibility change will result in instant appearance and instant disappearance of visible and invisible composables. The visibility of the composable is changed without applying animation.
+
+11.
+Question 11
+How does an Activity enable interaction?
+
+1 / 1 point
+
+It allows the user to set custom preferences.
+
+
+
+It provides access to device resources.
+
+
+
+It provides a screen containing the user interface enabling interaction with UI elements.
+
+
+
+It performs calculations in the background.
+
+
+Correct
+Correct! An Activity is an application component that contains the user interface and represents the application screen.
+
+12.
+Question 12
+Which of the following is the parent class for all types of views?
+
+1 / 1 point
+
+ImageView
+
+
+
+TextView
+
+
+
+View
+
+
+
+ViewGroup
+
+
+Correct
+Correct! View defines the basic building block for any user interface, component or element.
+
+13.
+Question 13
+Which of the following refers to the states an Activity goes through from the moment an app starts until it exits?
+
+1 / 1 point
+
+activity lifecycle
+
+
+
+state
+
+
+
+lifecycle methods
+
+
+
+callbacks
+
+
+Correct
+Correct! The Activity class provides a number of callback functions which are called during different stages of the lifecycle.
+
+14.
+Question 14
+Which of the following are examples of view groups? Select all that apply.
+
+1 / 1 point
+
+RelativeLayout
+
+
+Correct
+Correct! RelativeLayout specifies the position of contained views relative to one another.
+
+
+ImageViewLayout
+
+
+
+FrameLayout
+
+
+Correct
+Correct! FrameLayout is designed to block out an area of the screen to display a single item.
+
+
+LinearLayout
+
+
+Correct
+Correct! LinearLayout organizes contained views horizontally or vertically as a single row or column.
+
+15.
+Question 15
+Which of the following is a disadvantage of using XML to create a User Interface in Android Studio?
+
+0 / 1 point
+
+XML can be difficult to debug.
+
+
+
+XML can only run on devices of specific screen sizes and resolutions.
+
+
+
+XML cannot be transferred over networks.
+
+
+
+XML is an inflexible language.
+
+
+Incorrect
+Not quite. Please review the reading 
+Using Views and XML: the downside
+.
+
+16.
+Question 16
+Which of the following is the correct way to define a composable function?
+
+1 / 1 point
+
+12345
+@Composable fun Profile(username: String) { Text(text = “$username”)}  
+@Composable 
+fun Profile(username: String) {
+ Text(text = “$username”)
+} 
+
+
+
+
+1234
+Composable fun Profile(username: String) { Text(text = “$username”)}
+Composable 
+fun Profile(username: String) {
+ Text(text = “$username”)
+}
+
+
+
+123
+fun Profile(username: String) { Text(text = “$username”)}
+fun Profile(username: String) {
+ Text(text = “$username”)
+}
+
+
+Correct
+Correct! Composables are reusable UI components defined with the @Composable annotation.
+
+17.
+Question 17
+Which of the following is an annotation that allows developers to easily create components that are modular and reusable?
+
+1 / 1 point
+
+@Kotlin
+
+
+
+@Component
+
+
+
+@Annotation
+
+
+
+@Composable
+
+
+Correct
+Correct! Jetpack Compose can be used to build a hierarchical UI consisting of composable functions.
+
+18.
+Question 18
+Which of the following built-in layouts in Compose places composables vertically?
+
+1 / 1 point
+
+row
+
+
+
+layout 
+
+
+
+column
+
+
+
+box
+
+
+Correct
+Correct! For a row the main axis is the vertical axis, so you can set the vertical alignment.
+
+19.
+Question 19
+Which of the following built-in layouts in Compose places composables vertically?
+
+1 / 1 point
+
+column
+
+
+
+box
+
+
+
+layout 
+
+
+
+row
+
+
+Correct
+Correct! For a row the main axis is the vertical axis, so you can set the vertical alignment.
+
+20.
+Question 20
+Imagine you have a drawable resource called helloWorld. Which of the following is the correct way to define an Image composable that will display the helloWorld drawable on the screen?
+
+0 / 1 point
+
+12
+Image(painter = R.drawable.helloWorld, contentDescription = ‘hello world’)
+Image(painter = R.drawable.helloWorld, 
+contentDescription = ‘hello world’)
+
+
+
+12
+Image(R.drawable.helloWorld, contentDescription = ‘hello world’)
+Image(R.drawable.helloWorld, 
+contentDescription = ‘hello world’)
+
+
+
+12
+Image(painterResource(id = R.drawable.helloWorld), contentDescription = ‘hello world’)
+Image(painterResource(id = R.drawable.helloWorld), 
+contentDescription = ‘hello world’)
+
+
+
+12
+Image(painter = painterResource(id = R.drawable.helloWorld), contentDescription = ‘hello world’)
+Image(painter = painterResource(id = R.drawable.helloWorld), 
+contentDescription = ‘hello world’)
+
+
+Incorrect
+Not quite. Please review the video 
+Styling with modifiers
+.
+
+21.
+Question 21
+Which of the following modifiers is used to set the background color of a composable?
+
+1 / 1 point
+
+backgroundColor
+
+
+
+layoutColor 
+
+
+
+color
+
+
+
+background
+
+
+Correct
+Correct! The background modifier accepts a color object as an argument.
+
+22.
+Question 22
+Which of the following is the default event handler added to the Button composable by Jetpack Compose?
+
+1 / 1 point
+
+onStart
+
+
+
+onInput 
+
+
+
+onPress
+
+
+
+onClick
+
+
+Correct
+Correct! The onClick event handler will execute the specified code in response to the Button being clicked.
+
+23.
+Question 23
+Which of the following is the event modifier that allows for a different function to be executed when a user long-presses on a composable?
+
+0 / 1 point
+
+draggable
+
+
+
+custom gestures
+
+
+
+combinedClickable
+
+
+
+clickable
+
+
+Incorrect
+Not quite. Please review the reading 
+Event types and modifiers
+.
+
+24.
+Question 24
+Which of the following refers to a current snapshot or condition of a program that changed over time?
+
+1 / 1 point
+
+events
+
+
+
+user interfaces
+
+
+
+activities 
+
+
+
+state
+
+
+Correct
+Correct! State is generally referred to as the data of some piece of information of a program that changed over time.
+
+25.
+Question 25
+What is a Scaffold in Jetpack Compose?
+
+1 / 1 point
+
+A fixed layout.
+
+
+
+A customizable layout.
+
+
+
+A state management library.
+
+
+
+A collection of presets. 
+
+
+Correct
+Correct! A Scaffold is a convenient way to combine UI patterns and Material Components.
+
+26.
+Question 26
+Imagine you want to create the ability for the user to navigate between two screens, Home and Dashboard. Which of the following is the correct way to define destination objects that implement the below interface?
+
+123
+interface Destinations{    val route:String}
+interface Destinations{
+    val route:String
+}
+
+0 / 1 point
+
+123456
+object Home:Destinations{    val route = “Home”}object Dashboard:Destinations{    val route = “Dashboard”}
+object Home:Destinations{
+    val route = “Home”
+}
+object Dashboard:Destinations{
+    val route = “Dashboard”
+}
+
+
+
+1234567
+Home:Destinations{    override val route = “Home”}Dashboard:Destinations{    override val route = “Dashboard”} 
+Home:Destinations{
+    override val route = “Home”
+}
+Dashboard:Destinations{
+    override val route = “Dashboard”
+}
+
+
+
+
+123456
+object Home:Destinations{    override val route = “Home”}object Dashboard:Destinations{    override val route = “Dashboard”}
+object Home:Destinations{
+    override val route = “Home”
+}
+object Dashboard:Destinations{
+    override val route = “Dashboard”
+}
+
+
+Incorrect
+Not quite. Please review the video 
+Navigation in Compose
+.
+
+27.
+Question 27
+Which of the following is used to define a horizontal List in Jetpack Compose?
+
+1 / 1 point
+
+Grid
+
+
+
+Column
+
+
+
+Row
+
+
+
+Box 
+
+
+Correct
+Correct! A Row is a layout composable. A Column is used when you want to define a vertical List.
+
+28.
+Question 28
+When would you use a lazy layout?
+
+1 / 1 point
+
+When designing a responsive layout.
+
+
+
+When you have a small number of items to display as a list.
+
+
+
+When you have a large number of items to display as a list.
+
+
+
+When you have performance issues.
+
+
+Correct
+Correct! A large or unknown number of items can lead to performance issues. 
+
+29.
+Question 29
+Which of the following is a benefit of using a Theme?
+
+1 / 1 point
+
+A Theme creates cross platform applications.
+
+
+
+A Theme automatically generates responsive layouts.
+
+
+
+A Theme allows you to separate design details from the UI structure and behavior.
+
+
+
+A Theme reduces the number of screens an application will require.
+
+
+Correct
+Correct! A Theme can control the appearance of all screens within an application. 
+
+30.
+Question 30
+Imagine you have a variable that stores a value which will be animated. Which of the following is used in the variable declaration to retain the state during recomposition?
+
+1 / 1 point
+
+targetValue
+
+
+
+mutableStateOf
+
+
+
+by remember
+
+
+
+animate*AsState
+
+
+Correct
+Correct! Remember API provides the by remember keyword which can be used to allow a state to survive recomposition. 
+
+
+-----------------------------------------------------------------------------------------------------
+

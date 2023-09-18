@@ -1,0 +1,429 @@
+SHAIK ISMAIL
+
+Congratulations! You passed!
+Grade received 100%
+To pass 80% or higher
+
+Go to next item
+1.
+Question 1
+What was the name of the composable replaced by xxx defined in this exercise?
+
+1234567
+@Composablefun xxx() {    Column {         WeeklySpecial()        MenuDish()    } }
+@Composable
+fun xxx() {
+    Column { 
+        WeeklySpecial()
+        MenuDish()
+    } 
+}
+
+1 / 1 point
+
+LowerPanel
+
+
+BottomPanel 
+
+
+MenuDish
+
+Correct
+Correct! The Composable name was LowerPanel.
+
+2.
+Question 2
+In this exercise, Image composable loads the image from drawable using __________.
+
+                  
+
+1 / 1 point
+
+1
+resource()
+resource()
+
+
+1
+drawableResource()
+drawableResource()
+
+
+1
+drawable using painterResource()
+drawable using painterResource()
+
+Correct
+Correct! the composable function is used to add the routes for the for the NavHost.
+
+3.
+Question 3
+In this exercise, which listener was used to perform an action after the button is clicked? 
+
+1 / 1 point
+
+1
+onClickListener
+onClickListener
+
+
+1
+onMouseListener
+onMouseListener
+
+
+1
+onKeyListener 
+onKeyListener 
+
+Correct
+Correct! The onClickListener was used when button is clicked.
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+
+
+Congratulations! You passed!
+Grade received 100%
+To pass 80% or higher
+
+Go to next item
+1.
+Question 1
+Which of these is true for modifiers?
+
+1 / 1 point
+
+They change the container of a composable
+
+
+They change how a composable behaves or appears.
+
+
+They must be provided for every composable
+
+Correct
+That's right! Modifiers can alter the way a composable behaves or appears.
+
+2.
+Question 2
+The composable argument that would replace xxxx in the code below is known as a:
+
+fun SayHello(name: String) {
+
+   Text(
+
+        text = "Hey $name!",
+
+        xxxx = xxxx.padding(10.dp)
+
+    )
+
+}
+
+1 / 1 point
+
+Compose
+
+
+Augmenter
+
+
+Modifier
+
+Correct
+That’s correct. In Compose, each composable has an argument called a modifier, which is set when defining the modifier. 
+
+3.
+Question 3
+What is the order of precedence for modifier chaining in Android UI Development?
+
+1 / 1 point
+
+Widgets, Layout, Themes
+
+
+Layout, Themes, Widgets 
+
+
+Themes, Widgets, Layout
+
+Correct
+That’s correct. This is the order of modifier chaining.
+
+4.
+Question 4
+What is the best way to handle an event in Android UI Development? 
+
+1 / 1 point
+
+Implement an OnClickListener interface.
+
+
+Augment composables
+
+
+Use a switch statement.
+
+Correct
+That’s correct. The OnClickListener interface is an Android UI development tool that allows developers to attach a listener to a View object.
+
+5.
+Question 5
+Which of these event modifiers is used when the app user presses a mouse button?
+
+1 / 1 point
+
+Shift 
+
+Correct
+That's correct. This modifier is used to detect if the user is pressing the shift key.
+
+
+Meta 
+
+Correct
+That's correct. This modifier is used to detect if the user is pressing the meta key.
+
+
+Control 
+
+Correct
+That's correct. This modifier is used to detect if the user is pressing the control key.
+
+
+Alt 
+
+Correct
+That's correct. This modifier is used to detect if the user is pressing the alt key.
+
+
+Action 
+
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+Congratulations! You passed!
+Grade received 100%
+To pass 80% or higher
+
+Go to next item
+1.
+Question 1
+ In this exercise, the padding Modifier was used to properly space composables. 
+
+1 / 1 point
+
+True
+
+
+False
+
+Correct
+Correct! The padding Modifier was used to properly space composables.    
+
+2.
+Question 2
+In this exercise, which callback was used to monitor the Text composable value change?
+
+1 / 1 point
+
+1
+onValueChange
+onValueChange
+
+
+ 
+
+1
+onValueUpdate    
+onValueUpdate    
+
+
+1
+onTextChange
+onTextChange
+
+Correct
+Correct! The onValueChange callback is used to monitor any changes in text state.
+
+3.
+Question 3
+In the exercise, how was the username and password retrieved from Text composable?
+
+1 / 1 point
+
+using field property
+
+
+using text property
+
+
+using string property
+
+Correct
+Correct! The text property was used to verify if the username and passwords are valid.
+
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+
+Congratulations! You passed!
+Grade received 100%
+To pass 80% or higher
+
+Go to next item
+1.
+Question 1
+Not all ‘events’ in an Android app happen due to user interaction. 
+
+1 / 1 point
+
+True
+
+
+False
+
+Correct
+That's right! Most of the events happen due to user interaction within the app, but there are some events which occur without user intervention such as network connection lost, battery charge drop and download completion.
+
+2.
+Question 2
+What does 'Recomposition' in Jetpack Compose allow developers to do? 
+
+1 / 1 point
+
+Reuse existing code 
+
+
+Write new code without editing existing code.
+
+
+Refresh the UI whenever the data changes. 
+
+Correct
+That's correct! In Compose the recreation of an app UI may happen frequently and is called 'Recomposition'
+
+3.
+Question 3
+In Jetpack Compose what does the mutableStateOf function create?
+
+1 / 1 point
+
+State that can be changed over time. 
+
+
+A fixed state of data
+
+
+An immutable state of code
+
+Correct
+That’s correct. The mutableStateOf API helps to preserve the state across recompositions and the activity lifecycle.
+
+4.
+Question 4
+A composable holding and modifying its state internally is called a ____________.
+
+1 / 1 point
+
+Stateful Recomposition
+
+
+Stateful composable
+
+
+Stateless composable
+
+Correct
+That’s correct.  Stateful composable is a way of building user interfaces in Android that allows developers to define the state of their views and components.
+
+5.
+Question 5
+What is the main purpose of State Hoisting in Android UI Development? 
+
+1 / 1 point
+
+To aid in debugging an application
+
+
+To improve the performance of an Android application 
+
+
+To store and restore UI states during configuration changes 
+
+Correct
+That’s correct. State hoisting is a concept in Android UI development that allows developers to save and restore the state of their UI components.
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+Congratulations! You passed!
+Grade received 100%
+To pass 80% or higher
+
+Go to next item
+1.
+Question 1
+In this exercise, what are the supported orientations?
+
+1 / 1 point
+
+portrait
+
+Correct
+Correct! App supports both orientations portrait and landscape.
+
+
+horizontal
+
+
+landscape
+
+Correct
+Correct! App supports both orientations portrait and landscape.
+
+2.
+Question 2
+In this exercise device orientation was retrieved using configuration.landscape property.
+
+1 / 1 point
+
+True
+
+
+False
+
+Correct
+Not quite! The device orientation was retrieved using configuration.orientation property.
+
+3.
+Question 3
+In this exercise, how many layouts where used? 
+
+1 / 1 point
+
+three layouts
+
+
+two layouts
+
+
+one layout
+
+Correct
+Correct! Two layouts are required – one for the orientation landscape and one for portrait orientation.
+
+
+
+-----------------------------------------------------------------------------------------------------
+
+
